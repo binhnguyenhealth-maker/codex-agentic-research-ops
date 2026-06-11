@@ -1,0 +1,8 @@
+{
+  "cycle": 42,
+  "owner": "manager",
+  "phase": "train",
+  "control_metric": 1.23,
+  "candidate_metric": null,
+  "status": "waiting_for_candidate_result"
+}

@@ -10,7 +10,9 @@ from pathlib import Path
 
 
 RULES = {
-    "private_key_block": re.compile(r"-----BEGIN (?:RSA |OPENSSH |EC |DSA |)?PRIVATE KEY-----"),
+    "private_key_block": re.compile(
+        r"-----BEGIN (?:RSA |OPENSSH |EC |DSA |)?PRIVATE " + r"KEY-----"
+    ),
     "token_like": re.compile(r"\b(?:sk-|hf_|gh[oprsu]_)[A-Za-z0-9_-]{20,}\b"),
     "secret_assignment": re.compile(r"(?i)\b(?:api[_-]?key|secret|token|password)\s*=\s*['\"]?[^'\"\s#]{8,}"),
     "private_context": re.compile(

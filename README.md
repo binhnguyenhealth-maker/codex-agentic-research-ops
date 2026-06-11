@@ -38,6 +38,7 @@ examples/
 scripts/
   flight_recorder.py
   leak_scan.py
+  validate_packet.py
 templates/
   task-packet.md
   result-contract.md
@@ -60,6 +61,21 @@ Run the leak scan before publishing:
 ```bash
 python3 scripts/leak_scan.py .
 ```
+
+Validate the included demo packet and worker result:
+
+```bash
+python3 scripts/validate_packet.py examples/fake-ml-cycle/task-packet.md --kind task
+python3 scripts/validate_packet.py examples/fake-ml-cycle/worker-result.md --kind result
+python3 -m pytest
+```
+
+## 90-Day Direction
+
+The roadmap focuses on turning these templates into a tested CLI and evaluator
+for Codex workflows: packet validation, worked examples, leak-safe release
+checks, and scoring for drift, evidence quality, result completeness, and human
+approval boundaries. See [ROADMAP.md](ROADMAP.md).
 
 ## Status
 

@@ -18,7 +18,7 @@ worker outputs, and unsafe mutation of production or high-cost systems.
 
 ## GitHub Repository
 
-To be added after public repo creation.
+https://github.com/binhnguyenhealth-maker/codex-agentic-research-ops
 
 ## How API Credits Would Be Used
 
@@ -36,9 +36,9 @@ realistic open-source examples, including:
 
 ## Related Public Work
 
-- OPX sanitized snapshot: local staging pending.
-- Prediction-market analytics sanitized snapshot: local staging pending.
-- Paper-mode market-making bot sanitized snapshot: local staging pending.
+- OPX sanitized snapshot: https://github.com/binhnguyenhealth-maker/opx-sanitized
+- Prediction-market analytics sanitized snapshot: https://github.com/binhnguyenhealth-maker/polymarket-sanitized
+- Paper-mode market-making bot sanitized snapshot: https://github.com/binhnguyenhealth-maker/lighter-bot-sanitized
 
 ## Safety Statement
 
